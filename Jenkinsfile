@@ -2,15 +2,15 @@ pipeline {
     agent any
 
     stages {   
-        stage('hotfix branch') { 
+        stage('hotfix branch updated') { 
             steps { 
-               sh 'echo "This is hotfix branch"' 
+               sh 'echo "This is hotfix branch updated"' 
             }
         }
      
         stage('test') { 
             steps { 
-               sh 'echo "sprint1 application..."'
+               sh 'echo "test application..."'
             }
         }
 
